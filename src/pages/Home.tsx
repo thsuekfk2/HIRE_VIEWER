@@ -1,3 +1,4 @@
+import { Button } from "../components/Button";
 import { useRouter } from "../hooks/useRouter";
 
 export const Home = () => {
@@ -5,7 +6,7 @@ export const Home = () => {
   return (
     <div>
       Home
-      <button onClick={() => routerTo("/device")}>enter</button>
+      <Button onClick={() => routerTo("/device")}>enter</Button>
     </div>
   );
 };

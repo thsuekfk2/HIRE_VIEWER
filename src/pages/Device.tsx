@@ -1,3 +1,4 @@
+import { Button } from "../components/Button";
 import { useRouter } from "../hooks/useRouter";
 
 export const Device = () => {
@@ -6,7 +7,7 @@ export const Device = () => {
   return (
     <div>
       Device Page
-      <button onClick={() => routerTo("/record")}>next</button>
+      <Button onClick={() => routerTo("/record")}>next</Button>
     </div>
   );
 };
